@@ -2,3 +2,6 @@ zuul:
   sensitive-headers:
   routes:
     product: /myProduct/**
+spring:
+  application:
+    name: api-getway
