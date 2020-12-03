@@ -1,0 +1,4 @@
+zuul:
+  sensitive-headers:
+  routes:
+    product: /myProduct/**
