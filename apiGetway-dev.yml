@@ -5,3 +5,9 @@ zuul:
 spring:
   application:
     name: api-getway
+management:
+  security:
+    enabled: false    
+ribbon:
+  ReadTimeout: 5000
+  SocketTimeout: 5000
