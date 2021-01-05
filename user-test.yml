@@ -12,4 +12,4 @@ eureka:
     lease-renewal-interval-in-seconds: 30
 mybatis:
   type-aliases-package: com.itheima.pojo
-name: chen
+name: chen1111
