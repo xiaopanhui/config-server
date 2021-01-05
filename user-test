@@ -6,12 +6,6 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://localhost:3306/springcloud?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
-  cloud:
-    config:
-      discovery:
-        service-id: config-server
-      name: user
-      profile: test
 eureka:
   instance:
     lease-expiration-duration-in-seconds: 90
